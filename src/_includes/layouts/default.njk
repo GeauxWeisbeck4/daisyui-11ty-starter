@@ -15,7 +15,9 @@ title: My Blog
       {{css | postcss | safe}}
     </style>
   </head>
-  <body class="prose">
+    {% include "components/navbar.njk" %}
+  <body>
     {{ content | safe }}
   </body>
+    {% include "components/footer.njk" %}
 </html>
