@@ -12,7 +12,7 @@ layout: layouts/default.njk
   </div>
 </div>
 
-<div class="carousel w-full">
+<div class="carousel w-full p-40">
   <div id="item1" class="carousel-item w-full">
     <img src="https://res.cloudinary.com/tar-heel-dev-studio/image/upload/v1677872671/seattle_ailtqy.jpg" class="w-full" />
   </div> 
